@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="asiastyle.css"/>
+<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Amethysta' rel='stylesheet'>
+</style>
+<head>
+    <title>World Travel Guide</title>
+<link rel="icon" href="images/logo.png"/>
+</head>
+<body>
+<header>
+<img src="images/logo.png" alt="logo" class="biglogo"/>
+<p class="slogan">Travel to live, Live to Travel</p>
+<h1 class="intro">World Travel Guide</h1>
+<nav id="myTopnav" class="topnav">
+  <a href="website deign 3.html" >Home</a>
+  <a href="about.html">About</a>
+  <div class="dropdown">
+    <button class="button"><a href="destination.html">Destination</a>
+    </button>
+	  <div class="content">
+      <a href="africa.html">Africa</a>
+      <a href="asia.html"  class="active">Asia</a>
+      <a href="australia.html">Australia</a>
+      <a href="britishisle.html">British Isle</a>
+      <a href="southamerica.html">South America</a>
+      <a href="europe.html">Europe</a>
+      <a href="middleeast.html">Middle East</a>
+      <a href="northamerica.html">North Americas</a>
+	  </div>
+  </div> 
+  <a href="wonders.html">Famous Attractions</a>
+  <a href="feedback.html">Feedback</a>
+  
+  <input type="text" placeholder="Search..">
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</nav>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+</nav>
+<!--For the top thing-->
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
+</header>
+<!--for the title-->
+<h2 class="title">Asia Travel Guide</h2>
+<p class="information"><img src="imageasia/asia.jpg" alt="picure" class="huge" width="2120" height="894"/><br>
+Asia is Earth's largest and most populous continent, located primarily in the Eastern and Northern Hemispheres. It shares the continental landmass of Eurasia with the continent of Europe and the continental landmass of Afro-Eurasia with both Europe and Africa. Asia covers an area of 44,579,000 square kilometres (17,212,000 sq mi), about 30% of Earth's total land area and 8.7% of the Earth's total surface area. The continent, which has long been home to the majority of the human population,[5] was the site of many of the first civilizations. Asia is notable for not only its overall large size and population, but also dense and large settlements, as well as vast barely
+<span font-weight="400"> populated regions. Its 4.5 billion people</span>
+<span font-weight="400">constitute roughly 60% of the world's population</span>
+<span font-weight="400">.</span>
+</p>
+
+<!--for icons-->
+<ul class="icon1">
+<a href="#places"><li>Places to visit in Asia</li></a>
+</ul>
+<ul class="icon2">
+<a href="#cost"><li>Typical cost</li></a>
+</ul>
+<ul class="icon3">
+<a href="#tips"><li href="#tips">Travelling Tips</li></a>
+</ul>
+<ul class="icon4">
+<a href="#info"><li>Important Information</li></a>
+</ul>
+<ul class="icon5">
+<a href="#guide"><li>Guides</li></a>
+</ul>                                                    
+
+<!--for the 5 places thing-->
+<h2 id="places"> Places to travel in Asia</h2>
+<div class="hover">
+<div class="container1">
+<div class="post">
+<h1>1. Siem Reap, Cambodia</h1>
+<img src="imageasia/combodia.jpg" class="polar" alt="image"/>
+<div class="post-s">
+<p><a>Siem Reap has been called the “perfect destination” for first time travelers to Asia. This capital city in northwestern Cambodia is easy to get around, and you’ll find attractions on nearly every corner, with friendly people, lots of history, culture, nightlife, museums, markets and opportunities for relaxing as well as taking part in adventurous activities. </a></p>
+</div>
+</div>
+</div>
+
+<div class="container1">
+<div class="post">
+<h1>2. Hanoi, Vietnam</h1>
+<img src="imageasia/hanoi.jpg" class="polar" alt="image"/>
+<div class="post-s">
+<p><a>The charming Vietnamese capital is different than other Asian capitals as a graceful collage of cultural influences from the French and Chinese, yet still retaining local Vietnamese ways. It’s aged well, with the well-preserved Old Quarter, a maze of streets more than 1,000 years old set between the city’s famed Hoan Kiem Lake, the Red River and the few walls that remain of the Hanoi Citadel .</a></p>
+</div>
+</div>
+</div>
+
+<div class="container1">
+<div class="post">
+<h1>3. Tokyo, Japan</h1>
+<img src="imageasia/tokyo.jpg" class="polar" alt="image"/>
+<div class="post-s">
+<p><a>In Tokyo, traditional collides with pop culture, offering everything from belting out a song at a karaoke bar to reverently wandering through ancient temples. While it’s chaotic, crowded and expensive, everything is incredibly clean and the people are extremely polite. </a></p>
+</div>
+</div>
+</div>
+
+<div class="container1">
+<div class="post">
+<h1>4. Singapore, Singapore</h1>
+<img src="imageasia/sg.jpg" class="polar" alt="image"/>
+<div class="post-s">
+<p><a>Singapore, with a cityscape that looks as if it was ripped right out of the pages of a sci-fi book, has become an economic powerhouse over the past half century, with a high standard of living and numerous reasons to visit. It’s considered a shopper’s paradise with its numerous malls, though it also offers magnificent architecture, culture and amazing public art along with a slice of horticultural heaven.</a></p>
+</div>
+</div>
+</div>
+
+<div class="container1">
+<div class="post">
+<h1>5. Hong Kong, China</h1>
+<img src="imageasia/hk.jpg" class="polar" alt="image"/>
+<div class="post-s">
+<p><a>Hong Kong, a Special Administrative Region of China, is one of the world’s leading financial, banking and trading centers and a gateway between East and West. You’ll find amazing dim sum, floating islands and a one-of-a-kind skyline. </a></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="whole"></div>
+<h2 id="cost">Typical cost</h2>
+<p><strong>Accomendation</strong>-To make a relatively accurate budget calculation for your South East Asia trip, plan for $50 – $60 per day for a couple, which equals $1,500 – $1,800/month. Plan on $35 – $40 per day for one person travelling, which equals $1,050 – $1,200/month.</p>
+<p><strong>Transportation</strong>-affodable</p>
+<p><strong>Food</strong>-Your usual daily expenses will be roughly £22 a day on average, with some days being less and some days being more.  This gave me enough money to stay in a cheap hostel, drink (heavily!), eat street food or in a cheap restaurant, get a cab or tuk tuk or 2, & get my laundry done when needed.</p>
+
+
+<div class="empty"></div>
+<h2 id="tips">Travelling Tips</h2>
+<ol>
+<li>Always have toilet paper – There is never any around, but when you do find some, stock up!</li>
+<li>Research cab fares before you arrive – One of the biggest scams in southeast Asia is with cabs ripping people off. Know how much it should cost to get from where you are arriving to your accommodation. You can usually figure out what cabs should cost by asking others you meet on the road. Or find out what cab companies are trusted. Email a hostel and ask.</li>
+<li>Know if there will be an ATM – You won’t have a problem with finding ATMs in most of SE Asia, but there will be the odd spot where there are none. Plan ahead! Some examples are El Nido, Philippines and Koh Rong, Cambodia.</li>
+<li>Wifi is everywhere, no need to buy SIM cards – Free wifi is honestly way easier to come by than expected and for the most part it is decent. That being said, SIM cards are super cheap so you’re not breaking the bank buying them. But why spend the money when you could easily save? And if you’re worried about getting lost, download Maps.me, an app that doesn’t need wifi to use maps!</li>
+<li>Always have USD – If you ever run out of the local currency USD will be accepted. Most boarders require you to pay in USD as well. I recommend getting some in your home country and bringing it with you, though some countries (like Cambodia) dispense USD as well as the local currency.</li>
+<li>Research scams to lookout for before you go to a new country/cross borders – A lot of scams in SE Asia are common, so make sure you know what to look out for. Most have to do with cabs, renting scooters, and crossing borders.</li>
+</ol>
+
+<div class="empty"></div>
+<h2 id="info">Important Information</h2>
+<ol>
+<li>Plan around the weather – Check the weather for each of your destinations and plan around the heat. Avoid monsoon season and aim for the low season to get the best deals.</li>
+<li>ABudget – Asia can be as expensive or as cheap as you wish. It is possible to spend as little as £20 a day but I recommend at least £50 a day (per couple) is a good amount to budget. A typical day in Vietnam for us would cost: Private double room with ensuite: £11, breakfast (pancakes and juice from nearby restaurant): £4, taxi ride: 60p, attractions (museum entrance and park): 52p per person, lunch (overeating) at a local market: £4, attractions (Pagoda searching and general wandering around taking street photos): free, dinner (three course, sit down restaurant including two alcoholic drinks each): £15, beer at local bar: £1.20 and cocktails at local bar  £1.60 = One day cost £37.92.</li>
+<li>Respect local beliefs – Whether its not touching peoples head, walking on the other side of the road from a monk or removing your shoes, read the signs and follow the rules. You’re a guest in the country so be as respectful as you would be if you were a guest at your in-laws home (my rule of thumb).</li>
+<li>Local water – Don’t drink water from the taps, it isn’t clean and will make you sick.</li>
+<li>xpect to get ripped off – Unfortunately, it will definitely happen at some point in your trip. You will get into a taxi who refuses to use the meter, have a tuk-tuk try and take you to his mates suit store or be massively overcharged for something weird looking on a stick. Haggle when you can, get out of taxis and make the most of your trip. On our first visit to Bangkok, we got frustrated with the taxis but after walking out of one or two, we always found someone around the corner who would use the meter.</li>
+</ol>
+
+<div class="empty"></div>
+<h2 id="guide">Recommended Guides To Use</h2>
+<table border="0">
+<tr>
+<td class="image"><img src="imageasia/guide1.jpg" class="guide" alt="image"/></td>
+<td class="data"><strong>The Rough Guide to Southeast Asia On A Budget </strong>
+</br>Now available in PDF format. The Rough Guide to Southeast Asia on a Budget is the ultimate guide for budget-conscious independent travelers visiting this fascinating region. Updated by a team of expert writers, this edition of The Rough Guide to Southeast Asia on a Budget is packed with information to help you make the most of your time and money, including comprehensive transportation information, suggested itineraries, full-color maps, and advice on local culture, food and language.</td>
+<td class="image"><img src="imageasia/guide2.jpg" class="guide" alt="image"/></td>
+<td class="data"><strong>Lonely Planet Story - Once While Travelling (Wheeler Tony)</strong>
+</br>The highly readable Lonely Planet Story: Once While Travelling is a unique mix of autobiography, business history and travel book. In 2007, the Wheelers shocked the publishing industry by selling to BBC worldwide. Above all, their memoir reveals the spirit of adventure that has made them, according to the New York Daily Times, `the specialists in guiding weird folks to weird places'. </td>
+</tr>
+
+
+<tr>
+<td class="image"><img src="imageasia/guide3.jpg" class="guide" alt="image"/></td>
+<td class="data"><strong>An Essential Guide to Singlish</strong>
+</br>Singlish is one of the most entertaining of all the Asian Englishes and ought to be practiced by anyone visiting Singapore. Even a little knowledge of the language will help visitors to better understand local culture and learning to speak a few words or phrases can enhance the experience of dining out, shopping, and even getting about town. </td>
+<td class="image"><img src="imageasia/guide4.jpg" class="guide" alt="image"/></td>
+<td class="data"><strong>The Rough Guide to Thailand</strong></br>This updated edition is in full color, with clear maps and vibrant photography that brings Thailand to life. It includes detailed information on everything from the most stylish bars in Bangkok to diving on Ko Tao. Whether you want to trek in the hills near Chang Mai, explore the temples and waterways of Bangkok, or just relax on an idyllic beach on one of the country's numerous islands, this fully updated guide will lead you to the best attractions in Thailand.</td>
+</tr>
+</table>
+<div class="empty"></div>
+
+
+
+
+
+
+
+<footer>
+<div class="footer1">
+<ul><a class="h2" href="about.html">About us</a>
+<li><a href="about.html#purpose">Purpose</a></li>
+<li><a href="about.html#audience">Audience</a></li>
+<li><a href="about.html#objectives">Objectives</a></li></ul>
+</div>
+
+<div class="footer2">
+<ul><a class="h2" href="destination.html">Destination</a>
+<li><a href="africa.html">Africa</a></li>
+<li><a href="asia.html">Asia</a></li>
+<li><a href="australia.html">Australia</a></li>
+<li><a href="britishisle.html">British Isle</a></li>
+<li><a href="southamerica.html">South America</a></li>
+<li><a href="europe.html">Europe</a></li>
+<li><a href="middleeast.html">Middle East</a></li>
+<li><a href="northamerica.html">North America</a></li>
+</div>
+
+
+<div class="footer4">
+<ul><a class="h2"href="wonders.html">Famous Attractions</a>
+<li><a href="wonders.html#paris">Effile Tower</a></li>
+<li><a href="wonders.html#pisa">Leaning Tower of Pisa</a></li>
+<li><a href="wonders.html#montain">Machu Picchu</a></li>
+<li><a href="wonders.html#india">Taj Mahal</a></li>
+<li><a href="wonders.html#london">Big Ben</a></li>
+<li><a href="wonders.html#pyramid">The Great Pyramid of Giza</a></li>
+<li><a href="wonders.html#china">The Great Wall of China</a></li></ul>
+</div>
+
+<div class="footer3">
+<ul><a class="h2">Follow us on:</a>
+<li><a target="_blank" title="Follow@worldtravelguide" href="http://www.twitter.com"><img alt="follow me on twitter" src="https://c866088.ssl.cf3.rackcdn.com/assets/twitter40x40.png" border=0></a></a></li>
+<li><a target="_blank" title="follow me on facebook" href="http://www.facebook.com"><img alt="follow me on facebook" src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook40x40.png" border=0></a></a></li>
+<li><a target="_blank" title="follow me on instagram" href="http://www.instagram.com"><img alt="follow me on instagram" src="https://c866088.ssl.cf3.rackcdn.com/assets/instagram40x40.png" border=0></a></a></li>
+<li><a target="_blank" title="follow me on pinterest" href="http://www.pinterest.com"><img alt="follow me on pinterest" src="https://c866088.ssl.cf3.rackcdn.com/assets/pinterest30x30.png" border=0></a></a></li></ul>
+</div>
+<p>Copyright &copy; 2018.Balveen Kaur</p>
+</footer>
+
+</body>
+</html>

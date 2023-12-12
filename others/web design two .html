@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<head>
+<title>World Travel Guide</title>
+<link rel="icon" href="logo.png"/>
+</head>
+<body>
+<!--for the navigation bar-->
+<header>
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active"> <img src="logo.png" alt="logo" class="logo"/>Home</a>
+  <a href="#about">About</a>
+  <div class="dropdown">
+    <button class="dropbtn">Desination
+    </button>
+	  <div class="dropdown-content">
+      <a href="#">Africa</a>
+      <a href="#">Asia</a>
+      <a href="#">Australia</a>
+      <a href="#">British Isle</a>
+      <a href="#">Central and South America</a>
+      <a href="#">Europe</a>
+      <a href="#">Middle East</a>
+      <a href="#">North America and Caribbean</a>
+      <a href="#">Polar Regions</a>
+      <a href="#">South-East Asia</a>
+	  </div>
+	  <a href="#guidebooks">Guidebooks</a>
+  </div> 
+  
+  <input type="text" placeholder="Search..">
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+</header>
+<div class="hello">
+<h1 class="intro">Welcome to World Travel Guide</h1>
+</div>
+<div class="empty"></div>
+<!--for the animation video-->
+<video class="video" src="animation.mp4" autoplay controls >
+</video>
+<div class="videobox"></div>
+<!--for the testimonials-->
+<div class="empty"></div>
+<div class="test">
+<p>These are testimonials from people</p>
+</div>
+<div class="help">
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <p class="name">DANIEL GROVER</p>
+  <img src="testi/face3.png" class="img1">
+  <p class="text">Ccool</p>
+</div>
+
+<div class="mySlides fade">
+  <p class="name"></p>
+  <img src="testi/face1.png" class="img2">
+  <p class="text">what </p>
+</div>
+
+<div class="mySlides fade">
+  <p class="name"></p>
+  <img src="testi/face2.png" class="img3">
+  <p class="text">hello</p>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+
+</script>
+</div>
+
+
+
+
+
+</body>
+</html>

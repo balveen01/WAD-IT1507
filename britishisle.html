@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="britishstyle.css"/>
+<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Amethysta' rel='stylesheet'>
+</style>
+<head>
+    <title>World Travel Guide</title>
+<link rel="icon" href="images/logo.png"/>
+</head>
+<body>
+<header>
+<img src="images/logo.png" alt="logo" class="biglogo"/>
+<p class="slogan">Travel to live, Live to Travel</p>
+<h1 class="intro">World Travel Guide</h1>
+<nav id="myTopnav" class="topnav">
+  <a href="website deign 3.html" >Home</a>
+  <a href="about.html">About</a>
+  <div class="dropdown">
+    <button class="button"><a href="destination.html">Destination</a>
+    </button>
+	  <div class="content">
+      <a href="africa.html">Africa</a>
+      <a href="asia.html"  >Asia</a>
+      <a href="australia.html" >Australia</a>
+      <a href="britishisle.html" class="active">British Isle</a>
+      <a href="southamerica.html">South America</a>
+      <a href="europe.html">Europe</a>
+      <a href="middleeast.html">Middle East</a>
+      <a href="northamerica.html">North Americas</a>
+
+	  </div>
+  </div> 
+  <a href="wonders.html">Famous Attractions</a>
+  <a href="feedback.html">Feedback</a>
+  
+  <input type="text" placeholder="Search..">
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</nav>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+</nav>
+<!--For the top thing-->
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
+</header>
+<!--for the title-->
+<h2 class="title">British Isle Travel Guide</h2>
+<p class="information"><img src="britisimage/british.jpg" alt="picure" class="huge" width="2120" height="894"/><br>
+The British Isles are a group of islands off the north-western coast of continental Europe that consist of the islands of Great Britain, Ireland, the Isle of Man and over six thousand smaller isles.[7] Situated in the North Atlantic, the islands have a total area of approximately 315,159 km2,[5] and a combined population of just under 70 million. Two sovereign states are located on the islands: the Republic of Ireland (which covers roughly five-sixths of the island of Ireland)[8] and the United Kingdom of Great Britain and Northern Ireland. The islands of Alderney, Jersey, Guernsey and Sark are sometimes also taken to be part of the British Isles[9] even though, as
+<span font-weight="400">  islands off the coast of France, they do not form </span>
+<span font-weight="400">part of the archipelago</span>
+<span font-weight="400">.</span>
+</p>
+
+<!--for icons-->
+<ul class="icon1">
+<a href="#places"><li>Places to visit in British Isle</li></a>
+</ul>
+<ul class="icon2">
+<a href="#cost"><li>Typical cost</li></a>
+</ul>
+<ul class="icon3">
+<a href="#tips"><li href="#tips">Travelling Tips</li></a>
+</ul>
+<ul class="icon4">
+<a href="#info"><li>Important Information</li></a>
+</ul>
+<ul class="icon5">
+<a href="#guide"><li>Guides</li></a>
+</ul>                                                    
+
+<!--for the 5 places thing-->
+<h2 id="places"> Places to travel in British Isle</h2>
+<div class="hover">
+<div class="container1">
+<div class="post">
+<h1>1. The Lake District</h1>
+<img src="britisimage/lake.jpg" class="polar" alt="image"/>
+<div class="post-s">
+<p><a>The trend to areas of natural beauty in the UK was kicked off by the announcement earlier this year that the Lakes District was to become a UNESCO World Heritage site.</a></p>
+</div>
+</div>
+</div>
+
+<div class="container1">
+<div class="post">
+<h1>2. Snowdonia</h1>
+<img src="britisimage/Snowdonia.jpg" class="polar" alt="image"/>
+<div class="post-s">
+<p><a>The national park contains the second highest mountain in the British Isles, Mount Snowdon. This is an achievable but challenging day hike or you can just take the train to the top! There is a great café there that serves amazing soup!</a></p>
+</div>
+</div>
+</div>
+
+<div class="container1">
+<div class="post">
+<h1>3. The Isle of Wight</h1>
+<img src="britisimage/Wight.jpg" class="polar" alt="image"/>
+<div class="post-s">
+<p><a>Time seems to slow down when you get to the island. It is known for its walk, beaches, fish and chips and ice-cream! The most westerly point of the island is home to The Needles, 3 massive white chalk rocks that are very scenic.</a></p>
+</div>
+</div>
+</div>
+
+<div class="container1">
+<div class="post">
+<h1>4.The Isle of Skye</h1>
+<img src="britisimage/Skye.jpg" class="polar" alt="image"/>
+<div class="post-s">
+<p><a>From the calm of the south of England to the wild and rugged north west coast of Scotland! It is now possible to drive to the Isle of Skye over the appropriately named Skye Bridge!</a></p>
+</div>
+</div>
+</div>
+
+<div class="container1">
+<div class="post">
+<h1>5. The Suilly Isles</h1>
+<img src="britisimage/Suilly.jpg" class="polar" alt="image"/>
+<div class="post-s">
+<p><a>This is bound to change once the word gets out as they are a stunning and unique archipelago off the coast of Cornwall. There are 5 inhabited islands and only one allows cars.</a></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="whole"></div>
+<h2 id="cost">Typical cost</h2>
+<p><strong>Accomendation</strong>-Hostels cost between 15-40 GBP a night for a dorm room; more in the big cities, less in the countryside. Amenities usually include free internet, breakfast, a common room, TV, and laundry facilities. Private rooms in hostels (twin or double) start at around 50 GBP and go up from there. Budget hotels offer the same amenities and start around 60 GBP per night for a twin room. </p>
+<p><strong>Transportation</strong>- In the United Kingdom, the National Rail service is always expensive. It’s one thing citizens in this part of the world love to complain about. A journey from London to Liverpool can cost as little as 25 GBP or as much as 150 GBP during peak hours (mid-day)! By booking your ticket with the National Rail over a week in advance and during off-peak hours, you’ll be able to find the cheaper tickets.</p>
+<p><strong>Food</strong>-You can eat cheap in England if you really pay attention. Fish and chips or a kebab are only a couple of pounds. Indian and Asian food can be purchased for 6 GBP for lunch entrees. </p>
+
+
+<div class="empty"></div>
+<h2 id="tips">Travelling Tips</h2>
+<ol>
+<li>Seasonally Appropriate Clothes – In the UK there is no such thing as bad weather, only inappropriate clothing. It gets cold in the winter, but it’s not all that warm in the summer either. Pack layers that can be mixed and matched, including a light jacket and Pashmina scarf or throw. Jeans are stylish, and warm in the winter, but are prone to getting soaked in the rain and damp. Having a pair of leggings or quick drying pants to bring along can be helpful for staying warm and dry when the weather turns. </li>
+<li>UK Power Adapters – UK outlets and American electronics will not work together unless you use an adapter. The UK and Ireland use a higher voltage than the United States, and can easily destroy your electronics if you plug them in without an adapter. The electrical outlets are also in a different configuration than in the States, so you probably won’t be able to plug anything in without the adapter. In parts of the UK you may need to flip a switch on the wall to get the power outlets to actually work. </li>
+<li>Rain Gear – A lightweight rain jacket you can easily put on over your layers, and then pack away into itself after the rain, is probably a better bet than carrying an umbrella. </li>
+<li>Fold-up Shopping Tote and/or Small Day Pack – Most shops in the UK will charge 5p or more for a plastic shopping bag. It’s best to carry a lightweight shopping tote that rolls up into a pocket-sized pouch to carry your purchases. Using a small, lightweight backpack is great for carrying your sweater, camera, water bottle, etc. while you leave your large bag/luggage at the hotel or on the tour bus. </li>
+<li>Refillable Water Bottle – Either bring along your own or save a plastic one to keep hydrated on the plane and walking around. The water in Scotland is especially delicious. If you bring one from home, make sure it’s empty before going through airport security, and fill it at a drinking fountain once you’ve been through.</li>
+<li>Swimsuit – If you are traveling during high summer (July and August) you may want a suit for hitting the beaches. From October to March it will be much too cold to swim. Swimsuits are also useful for visiting any spas you may encounter.</li>
+</ol>
+
+<div class="empty"></div>
+<h2 id="info">Important Information</h2>
+<ol>
+<li>It is not all about the English breakfast</li>
+<li>A good puzzle would be to cross Dublin without passing a pub</li>
+<li>It is illegal for a woman to be topless in public except as a clerk in a tropical fish store</li>
+<li>A seal-y affair</li>
+<li>The Channel Islands are part of Great Britain but not the UK</li>
+</ol>
+
+<div class="empty"></div>
+<h2 id="guide">Recommended Guides To Use</h2>
+<table border="0">
+<tr>
+<td class="image"><img src="britisimage/guide1.jpg" class="guide" alt="image"/></td>
+<td class="data"><strong>A Year in the World : Journeys of a Passionate Traveller </strong>
+</br> A CLASSIC FROM THE NEW YORK TIMES BESTSELLING AUTHOR OF UNDER MAGNOLIA A Year in the World is vintage Frances Mayes--a celebration of the allure of travel, of serendipitous pleasures found in unlikely locales, of memory woven into the present, and of a joyous sense of quest. </td>
+<td class="image"><img src="britisimage/guide2.jpg" class="guide" alt="image"/></td>
+<td class="data"><strong> Rolling Through The Isles : A Journey Back Down the Roads that led to Jupiter</strong>
+</br> Having crisscrossed the globe twice, Ted returns to the British Isles to rediscover the country of his youth. The result is a revealing portrait of modern Britain and a witty and affectionate journey back to the past, when Ted would hitchhike across the country visiting friends (and girlfriends).</td>
+</tr>
+
+<tr>
+<td class="image"><img src="britisimage/guide3.jpg" class="guide" alt="image"/></td>
+<td class="data"><strong> Michelin Guide Great Britain & Ireland 2018 : Restaurants & Hotels</strong>
+</br> The MICHELIN Guide Great Britain & Ireland 2019 is the definitive resource for carefully researched, objective recommendations to 2,200 restaurants, including 600 pubs and 1,500+ hotels with 500 B&B's in England, Scotland, Wales and Ireland. Anonymous inspectors use the famed Michelin food star rating system to create a substantive selection of restaurants across the British Isles, offering a diverse choice for all budgets.</td>
+<td class="image"><img src="britisimage/guide4.jpg" class="guide" alt="image" /></td>
+<td class="data"><strong>The Longest Crawl </strong>
+</br> The British love their booze. Ian Marchant - bon viveur, pub singer and writer - sets off to map the British landscape in drink. This mission takes Ian and his friend Perry on a gruelling month-long pub crawl, from the Turk's Head on the Scilly Isles to the Baa Bar in the Shetlands, taking in as many as possible of the British Isles' 60,000 pubs. </td>
+</tr>
+</table>
+<div class="empty"></div>
+
+
+
+
+
+
+
+<footer>
+<div class="footer1">
+<ul><a class="h2" href="about.html">About us</a>
+<li><a href="about.html#purpose">Purpose</a></li>
+<li><a href="about.html#audience">Audience</a></li>
+<li><a href="about.html#objectives">Objectives</a></li></ul>
+</div>
+
+<div class="footer2">
+<ul><a class="h2" href="destination.html">Destination</a>
+<li><a href="africa.html">Africa</a></li>
+<li><a href="asia.html">Asia</a></li>
+<li><a href="australia.html">Australia</a></li>
+<li><a href="britishisle.html">British Isle</a></li>
+<li><a href="">South America</a></li>
+<li><a href="">Europe</a></li>
+<li><a href="">Middle East</a></li>
+<li><a href="">North America</a></li>
+</div>
+
+<div class="footer4">
+<ul><a class="h2"href="wonders.html">Famous Attractions</a>
+<li><a href="wonders.html#paris">Effile Tower</a></li>
+<li><a href="wonders.html#pisa">Leaning Tower of Pisa</a></li>
+<li><a href="wonders.html#montain">Machu Picchu</a></li>
+<li><a href="wonders.html#india">Taj Mahal</a></li>
+<li><a href="wonders.html#london">Big Ben</a></li>
+<li><a href="wonders.html#pyramid">The Great Pyramid of Giza</a></li>
+<li><a href="wonders.html#china">The Great Wall of China</a></li></ul>
+</div>
+
+<div class="footer3">
+<ul><a class="h2">Follow us on:</a>
+<li><a target="_blank" title="Follow@worldtravelguide" href="http://www.twitter.com"><img alt="follow me on twitter" src="https://c866088.ssl.cf3.rackcdn.com/assets/twitter40x40.png" border=0></a></a></li>
+<li><a target="_blank" title="follow me on facebook" href="http://www.facebook.com"><img alt="follow me on facebook" src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook40x40.png" border=0></a></a></li>
+<li><a target="_blank" title="follow me on instagram" href="http://www.instagram.com"><img alt="follow me on instagram" src="https://c866088.ssl.cf3.rackcdn.com/assets/instagram40x40.png" border=0></a></a></li>
+<li><a target="_blank" title="follow me on pinterest" href="http://www.pinterest.com"><img alt="follow me on pinterest" src="https://c866088.ssl.cf3.rackcdn.com/assets/pinterest30x30.png" border=0></a></a></li></ul>
+</div>
+<p>Copyright &copy; 2018.Balveen Kaur</p>
+</footer>
+
+</body>
+</html>

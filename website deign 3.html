@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="style1.css"/>
+<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+<head>
+    <title>World Travel Guide</title>
+<link rel="icon" href="images/logo.png"/>
+</head>
+<body>
+<header>
+<img src="images/logo.png" alt="logo" class="biglogo"/>
+<p class="slogan">Travel to live, Live to Travel</p>
+<h1 class="intro">World Travel Guide</h1>
+<nav id="myTopnav" class="topnav">
+  <a href="home.html" class="active">Home</a>
+  <a href="about.html">About</a>
+  <div class="dropdown">
+    <button class="button"><a href="destination.html">Destination</a>
+    </button>
+	  <div class="content">
+      <a href="africa.html">Africa</a>
+      <a href="asia.html">Asia</a>
+      <a href="australia.html">Australia</a>
+      <a href="britishisle.html">British Isle</a>
+      <a href="southamerica.html">South America</a>
+      <a href="europe.html">Europe</a>
+      <a href="middleeast.html">Middle East</a>
+      <a href="northamerica.html">North America</a>
+	  </div>
+  </div> 
+  <a href="wonders.html">Famous Attractions</a>
+  <a href="feedback.html">Feedback</a>
+  
+  
+  <input type="text" placeholder="Search..">
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</nav>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+</nav>
+<!--For the top thing-->
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
+</header>
+<div class="container">
+<h2 class="title">Learn more about what the<br>  World Travel Guide can offer: </h2>
+<video controls  autoplay class="video" src="animation.mp4" >
+</video>
+</div>
+
+<!--for the hover effect-->
+<div class="empty"></div>
+<div class="container1">
+<div class="post">
+<img src="countries/polar.jpg" class="polar" alt="image"/>
+<div class="post-s">
+<h2>Polar Regions:<br> The Artic</h2>
+</div>
+</div>
+<div class="unpost">
+<h3>Reasons why you should visit?</h3>
+<p>Summer to early fall brings the best weather in the Arctic. Late summer is the best time to see whales in Norway’s Svalbard Archipelago. As for the Canadian Arctic Archipelago, Beluga whales—the beautiful all-white species known for their high pitched twitter—congregate by the hundreds there between July and mid-August.</p>
+</div>
+</div>
+
+<div class="empty"></div>
+<div class="container1">
+<div class="post">
+<img src="countries/autralia.jpg" class="polar" alt="image"/>
+<div class="post-s">
+<h2>Australia:<br>Great Barrier Reef Islands</h2>
+</div>
+</div>
+<div class="unpost">
+<h3>Reasons why you should visit?</h3>
+<p>August brings clear blue skies, good visibility for divers and snorkelers, and calm seas (the wind dies down at the end of July). It’s also the best time to view wildlife: dwarf minke whales visiting the northern reefs, manta rays off Lady Elliott Island in the region’s southern zone, and humpback whales—including Migaloo, the world’s only known all-white humpback—on their annual migration to Antarctica.</p></div>
+</div>
+</div>
+
+
+
+<div class="empty"></div>
+<div class="container1">
+<div class="post">
+<img src="countries/costa.jpg" class="polar" alt="image"/>
+<div class="post-s">
+<h2>Central America:<br> Costa Rica</h2>
+</div>
+</div>
+<div class="unpost">
+<h3>Reasons why you should visit?</h3>
+<p>Mid-June through mid–August is the middle of the rainy season, but prices are relatively low, everything is lush and green, and weather patterns are predictable. You get beautiful sunny mornings for adventure activities, and the strong showers in the afternoon give you time to rest while listening to the tropical rain that cools things off for the evening.</p>
+</div>
+</div>
+<!--testimonials-->
+<div class="empty"></div>
+<div class="container2">
+<div class="no">
+<img src="testi/face2.png" alt="image" class="face2"/>
+<h3>Elenoe Parker<h3>
+<h4> A Travel Enthusiasts</h4> 
+<p>This wesbite is decent, user friendly, easy to navigate. </p>
+</div>
+
+<div class="no">
+<img src="testi/face3.png" alt="image" class="face2"/>
+<h3>White Brownstone<h3>
+<h4>A Travel Blog</h4>
+<p>Information can easily be retrived from the website.</p>
+</div>
+
+<div class="no">
+<img src="testi/face5.png" alt="image" class="face2"/>
+<h3>Betty Cooper<h3>
+<h4>A Travel Agency Owner </h4>
+<p>This website is really detailed in its explanation </p>
+</div> 
+</div>
+
+<div class="empty"></div>
+<footer>
+<div class="footer1">
+<ul><a class="h2" href="about.html">About us</a><
+<li><a href="about.html#purpose">Purpose</a></li>
+<li><a href="about.html#audience">Audience</a></li>
+<li><a href="about.html#objectives">Objectives</a></li>
+</div>
+
+<div class="footer2">
+<ul><a class="h2" href="destination.html">Destination</a>
+<li><a href="africa.html">Africa</a></li>
+<li><a href="asia.html">Asia</a></li>
+<li><a href="australia.html">Australia</a></li>
+<li><a href="britishisle.html">British Isle</a></li>
+<li><a href="southamerica.html">South America</a></li>
+<li><a href="europe.html">Europe</a></li>
+<li><a href="middleeast.html">Middle East</a></li>
+<li><a href="northamerica.html">North America</a></li>
+</div>
+
+<div class="footer4">
+<ul><a class="h2" href="wonders.html">Famous Attractions</a>
+<li><a href="wonders.html#paris">Effile Tower</a></li>
+<li><a href="wonders.html#pisa">Leaning Tower of Pisa</a></li>
+<li><a href="wonders.html#montain">Machu Picchu</a></li>
+<li><a href="#wonders.html#india">Taj Mahal</a></li>
+<li><a href="wonders.html#london">Big Ben</a></li>
+<li><a href="wonder.html#pyramid">The Great Pyramid of Giza</a></li>
+<li><a href="wonders.html#china">The Great Wall of China</a></li></ul>
+</div>
+
+<div class="footer3">
+<ul><a class="h2">Follow us on:</a>
+<li><a target="_blank" title="Follow@worldtravelguide" href="http://www.twitter.com"><img alt="follow me on twitter" src="https://c866088.ssl.cf3.rackcdn.com/assets/twitter40x40.png" border=0></a></a></li>
+<li><a target="_blank" title="follow me on facebook" href="http://www.facebook.com"><img alt="follow me on facebook" src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook40x40.png" border=0></a></a></li>
+<li><a target="_blank" title="follow me on instagram" href="http://www.instagram.com"><img alt="follow me on instagram" src="https://c866088.ssl.cf3.rackcdn.com/assets/instagram40x40.png" border=0></a></a></li>
+<li><a target="_blank" title="follow me on pinterest" href="http://www.pinterest.com"><img alt="follow me on pinterest" src="https://c866088.ssl.cf3.rackcdn.com/assets/pinterest30x30.png" border=0></a></a></li></ul>
+</div>
+
+<p>Copyright &copy; 2018.Balveen Kaur</p>
+</footer>
+
+
+</body>
+</html>

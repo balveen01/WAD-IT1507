@@ -1,0 +1,54 @@
+body{
+ font-family: Verdana, Geneva, sans-serif;
+ font-size: 12px;
+}
+h1{
+text-align:center;
+}
+legend(
+font-size:10px;
+)
+fieldset{
+padding:10px;
+}
+/*for the radio button*/
+.section input[type="radio"], .section input[type="checkbox"]{
+	display:none;
+}
+.container label{
+	position: relative;
+}
+.container span::before,
+.container span::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.radio{
+	padding-left:50px;
+}
+.container span.radio:hover {
+  cursor: pointer;
+}
+.container span.radio::before {
+  left: 0px;
+  width: 45px;
+  height: 25px;
+  background-color: #A8AAC1;
+  border-radius: 50px;
+  
+}
+.container span.radio::after {
+  left: 0px;
+  width: 17px;
+  height: 17px;
+  border-radius: 10px;
+  background-color: #6C788A;
+  transition: left .25s, background-color .25s;
+}
+input[type="radio"]:checked + label span.radio::after {
+  left: 25px;
+  background-color: #EBFF43;
+}

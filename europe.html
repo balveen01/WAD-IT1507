@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="europestyle.css"/>
+<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Amethysta' rel='stylesheet'>
+</style>
+<head>
+    <title>World Travel Guide</title>
+<link rel="icon" href="images/logo.png"/>
+</head>
+<body>
+<header>
+<img src="images/logo.png" alt="logo" class="biglogo"/>
+<p class="slogan">Travel to live, Live to Travel</p>
+<h1 class="intro">World Travel Guide</h1>
+<nav id="myTopnav" class="topnav">
+  <a href="website deign 3.html" >Home</a>
+  <a href="about.html">About</a>
+  <div class="dropdown">
+    <button class="button"><a href="destination.html">Destination</a>
+    </button>
+	  <div class="content">
+      <a href="africa.html">Africa</a>
+      <a href="asia.html"  >Asia</a>
+      <a href="australia.html" >Australia</a>
+      <a href="britishisle.html" >British Isle</a>
+      <a href="southamerica.html" >South America</a>
+      <a href="europe.html" class="active">Europe</a>
+      <a href="middleeast.html">Middle East</a>
+      <a href="northamerica.html">North Americas</a>
+	  </div>
+  </div> 
+  <a href="wonders.html">Famous Attractins</a>
+  <a href="feedback.html">Feedback</a>
+  
+  <input type="text" placeholder="Search..">
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</nav>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+</nav>
+<!--For the top thing-->
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
+</header>
+<!--for the title-->
+<h2 class="title">Europe Travel Guide</h2>
+<p class="information"><img src="europeimage/europe.jpg" alt="picure" class="huge" width="2120" height="894"/><br>
+Europe is a continent located entirely in the Northern Hemisphere and mostly in the Eastern Hemisphere. It is bordered by the Arctic Ocean to the north, the Atlantic Ocean to the
+<span font-weight="400"> west and the Mediterranean Sea to the south.  </span>
+<span font-weight="400">It comprises the westernmost part of Eurasia</span>
+<span font-weight="400">.</span>
+</p>
+
+<!--for icons-->
+<ul class="icon1">
+<a href="#places"><li>Places to visit in Europe </li></a>
+</ul>
+<ul class="icon2">
+<a href="#cost"><li>Typical cost</li></a>
+</ul>
+<ul class="icon3">
+<a href="#tips"><li href="#tips">Travelling Tips</li></a>
+</ul>
+<ul class="icon4">
+<a href="#info"><li>Important Information</li></a>
+</ul>
+<ul class="icon5">
+<a href="#guide"><li>Guides</li></a>
+</ul>                                                    
+
+<!--for the 5 places thing-->
+<h2 id="places"> Places to travel in Europe </h2>
+<div class="hover">
+<div class="container1">
+<div class="post">
+<h1>1. Amsterdam, Netherlands </h1>
+<img src="europeimage/Netherlands.jpg" class="polar" alt="image"/>
+<div class="post-s">
+<p><a>One of my absolute favorite cities in Europe. A wonderful city center that’s as pedestrian and bike friendly as you’ll find. Loaded with fun cafes, restaurants, great museums, and leafy parks. Perhaps more than any European city Amsterdam is a place you’ll want to live in after your first day.</a></p>
+</div>
+</div>
+</div>
+
+<div class="container1">
+<div class="post">
+<h1>2. Galway, Ireland</h1>
+<img src="europeimage/Ireland.jpg" class="polar" alt="image"/>
+<div class="post-s">
+<p><a>Dublin has become a thriving international city where it can be hard to find the Irish culture you came here to experience. In Galway you really feel like you’re in Ireland. The town itself has a wonderful vibe and there’s tons to see within a 90 minute drive.</a></p>
+</div>
+</div>
+</div>
+
+<div class="container1">
+<div class="post">
+<h1>3. Reykjavik, Iceland</h1>
+<img src="europeimage/Iceland.jpg" class="polar" alt="image"/>
+<div class="post-s">
+<p><a>Reykjavik is the cool capital of Europe. Great nightlife, cafes, and restaurants. The Blue Lagoon, whale tours, and mesmerizing scenery are all easy day trips.</a></p>
+</div>
+</div>
+</div>
+
+<div class="container1">
+<div class="post">
+<h1>4. Edinburgh, Scotland</h1>
+<img src="europeimage/Scotland.jpg" class="polar" alt="image"/>
+<div class="post-s">
+<p><a>An awesome mix of castles, history, stunning scenery, and modern Scottish life, Edinburgh is one of the must visit cities of the U.K.</a></p>
+</div>
+</div>
+</div>
+
+<div class="container1">
+<div class="post">
+<h1>5. Santorini, Greece</h1>
+<img src="europeimage/Greece.jpg" class="polar" alt="image"/>
+<div class="post-s">
+<p><a>The single best destination in Europe (but I might be biased). The caldera views are as incredible as anything you’ll see anywhere. Sunsets, hikes, boat tours, local wines, black volcanic beaches, and the most luxurious hotels along the Mediterranean. Please, don’t miss Santorini.</a></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="whole"></div>
+<h2 id="cost">Typical cost</h2>
+<p><strong>Accomendation</strong>-In most Western European countries, expect to pay 25–35 euros per night for a dorm room. (Though in Greece and Spain, it’s only 10–20 euros per night.) In Scandinavia, expect to pay around 30–35 Euros per night. In England, prices are usually around 20–30 pounds per night.</p>
+<p><strong>Transportation</strong>- Cheap fast food meals cost 9–15 euros, while restaurants meals cost around 15–25 euros. Nicer establishments will cost 30 euros or more. You can cook your food for a week for around 65 euros>.</p>
+<p><strong>Food</strong>-Trains connect every major part of Europe, and they’re often very cheap. High-speed trains, though, can cost over 100 euros. Try to get the regional or slow trains for cheaper prices! The rise of cheap airlines like Ryanair, EasyJet, and Transavia has made flying around Europe in a hurry really cheap. For flights, expect to pay around 50 euros if you book in advance. Transportation around most cities is only 1–2 euros.</p>
+
+
+<div class="empty"></div>
+<h2 id="tips">Travelling Tips</h2>
+<ol>
+<li>DO YOUR RESEARCH</li>
+<li>DOWNLOAD THE NECESSARY MAPS BEFORE YOU GO</li>
+<li>TRAVEL DURING OFF-PEAK SEASON</li>
+<li>STRETCH YOUR DOLLAR</li>
+<li>HEAD TO THE LOCAL TOURIST OFFICE</li>
+</ol>
+
+<div class="empty"></div>
+<h2 id="info">Important Information</h2>
+<ol>
+<li>Check Visa Requirements</li>
+<li>Travel in the Off Season</li>
+<li>Use Budget Airlines</li>
+<li>Travel by Train</li>
+<li>Make Reservations in Advance</li>
+</ol>
+
+<div class="empty"></div>
+<h2 id="guide">Recommended Guides To Use</h2>
+<table border="0">
+<tr>
+<td class="image"><img src="europeimage/guide1.jpg" class="guide" alt="image"/></td>
+<td class="data"><strong> The Rough Guide to Europe on a Budget</strong></br>Travel Europe on the cheap with this updated guide, the ideal companion whether you're on a city break, beach vacation, or road trip.</td>
+<td class="image"><img src="europeimage/guide2.jpg" class="guide" alt="image"/></td>
+<td class="data"><strong>Cycling Along Europe's Rivers</strong>
+</br>Over 25 Interesting, Historic, and Cultural Rides. Second Edition 2016, including expanded section on Northern Italy. Cycling Along Europe's Rivers is a "How To" book on taking self-guided bike trips to Europe that are affordable and easy to organize. The book is based on the author's extensive experience, including over 20 years of annual cycle trips to Europe.  </td>
+</tr>
+
+<tr>
+<td class="image"><img src="europeimage/guide3.jpg" class="guide" alt="image"/></td>
+<td class="data"><strong>Birds of Europe : Second Edition</strong>
+</br>Since it was first published a decade ago, Birds of Europe has become the definitive field guide to the diverse birdlife found in Europe. Now this superb guide has been brought fully up to date with revised text and maps along with added illustrations. Uniquely designed for easy use in the field, this expanded edition covers all 772 species found in the region as well as 32 introduced species or variants and 118 very rare visitors. </td>
+<td class="image"><img src="europeimage/guide4.jpg" class="guide" alt="image" /></td>
+<td class="data"><strong>Little Black Book of Paris, 2017 Edition : The Essential Guide to the City of Lights</strong>
+</br>2017 Edition. Let this sleek little guidebook help you locate City of Light landmarks, arts and entertainment venues, restaurants, cafes, hotels, chic shops, and after-dark stops!Color-coded, numbered entries in the text are keyed to full-color neighborhood maps in each chapter.</td>
+</tr>
+</table>
+<div class="empty"></div>
+
+
+
+
+
+
+
+<footer>
+<div class="footer1">
+<ul><a class="h2" href="about.html">About us</a>
+<li><a href="about.html#purpose">Purpose</a></li>
+<li><a href="about.html#audience">Audience</a></li>
+<li><a href="about.html#objectives">Objectives</a></li></ul>
+</div>
+
+<div class="footer2">
+<ul><a class="h2" href="destination.html">Destination</a>
+<li><a href="africa.html">Africa</a></li>
+<li><a href="asia.html">Asia</a></li>
+<li><a href="australia.html">Australia</a></li>
+<li><a href="britishisle.html">British Isle</a></li>
+<li><a href="southamerica.html">South America</a></li>
+<li><a href="europe.html">Europe</a></li>
+<li><a href="">Middle East</a></li>
+<li><a href="">North America</a></li>
+</div>
+
+
+<div class="footer4">
+<ul><a class="h2"href="wonders.html">Famous Attractions</a>
+<li><a href="wonders.html#paris">Effile Tower</a></li>
+<li><a href="wonders.html#pisa">Leaning Tower of Pisa</a></li>
+<li><a href="wonders.html#montain">Machu Picchu</a></li>
+<li><a href="wonders.html#india">Taj Mahal</a></li>
+<li><a href="wonders.html#london">Big Ben</a></li>
+<li><a href="wonders.html#pyramid">The Great Pyramid of Giza</a></li>
+<li><a href="wonders.html#china">The Great Wall of China</a></li></ul>
+</div>
+
+<div class="footer3">
+<ul><a class="h2">Follow us on:</a>
+<li><a target="_blank" title="Follow@worldtravelguide" href="http://www.twitter.com"><img alt="follow me on twitter" src="https://c866088.ssl.cf3.rackcdn.com/assets/twitter40x40.png" border=0></a></a></li>
+<li><a target="_blank" title="follow me on facebook" href="http://www.facebook.com"><img alt="follow me on facebook" src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook40x40.png" border=0></a></a></li>
+<li><a target="_blank" title="follow me on instagram" href="http://www.instagram.com"><img alt="follow me on instagram" src="https://c866088.ssl.cf3.rackcdn.com/assets/instagram40x40.png" border=0></a></a></li>
+<li><a target="_blank" title="follow me on pinterest" href="http://www.pinterest.com"><img alt="follow me on pinterest" src="https://c866088.ssl.cf3.rackcdn.com/assets/pinterest30x30.png" border=0></a></a></li></ul>
+</div>
+<p>Copyright &copy; 2018.Balveen Kaur</p>
+</footer>
+
+</body>
+</html>

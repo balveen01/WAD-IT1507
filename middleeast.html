@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="middleeaststyle.css"/>
+<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Amethysta' rel='stylesheet'>
+</style>
+<head>
+    <title>World Travel Guide</title>
+<link rel="icon" href="images/logo.png"/>
+</head>
+<body>
+<header>
+<img src="images/logo.png" alt="logo" class="biglogo"/>
+<p class="slogan">Travel to live, Live to Travel</p>
+<h1 class="intro">World Travel Guide</h1>
+<nav id="myTopnav" class="topnav">
+  <a href="website deign 3.html" >Home</a>
+  <a href="about.html">About</a>
+  <div class="dropdown">
+    <button class="button"><a href="destination.html">Destination</a>
+    </button>
+	  <div class="content">
+      <a href="africa.html">Africa</a>
+      <a href="asia.html"  >Asia</a>
+      <a href="australia.html" >Australia</a>
+      <a href="britishisle.html" >British Isle</a>
+      <a href="southamerica.html" >South America</a>
+      <a href="europe.html" >Europe</a>
+      <a href="middleeast.html" class="active">Middle East</a>
+      <a href="northamerica.html">North Americas</a>
+	  </div>
+  </div> 
+  <a href="wonders.html">Famous Attractins</a>
+  <a href="feedback.html">Feedback</a>
+  
+  <input type="text" placeholder="Search..">
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</nav>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+</nav>
+<!--For the top thing-->
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
+</header>
+<!--for the title-->
+<h2 class="title">Middle East Travel Guide</h2>
+<p class="information"><img src="middleimage/middle.jpg" alt="picure" class="huge" width="2120" height="894"/><br>
+The Middle East is a transcontinental region centered on Western Asia, Turkey (both Asian and European), and Egypt (which is mostly in North Africa). The corresponding adjective is Middle Eastern and the derived noun is Middle Easterner. The term has come into wider usage as a replacement of the term Near East 
+<span font-weight="400"> (as opposed to the Far East) beginning in  </span>
+<span font-weight="400">the early 20th century</span>
+<span font-weight="400">.</span>
+</p>
+
+<!--for icons-->
+<ul class="icon1">
+<a href="#places"><li>Places to visit in Middle East </li></a>
+</ul>
+<ul class="icon2">
+<a href="#cost"><li>Typical cost</li></a>
+</ul>
+<ul class="icon3">
+<a href="#tips"><li href="#tips">Travelling Tips</li></a>
+</ul>
+<ul class="icon4">
+<a href="#info"><li>Important Information</li></a>
+</ul>
+<ul class="icon5">
+<a href="#guide"><li>Guides</li></a>
+</ul>                                                    
+
+<!--for the 5 places thing-->
+<h2 id="places"> Places to travel in Middle East </h2>
+<div class="hover">
+<div class="container1">
+<div class="post">
+<h1>1. The Nile, Egypt</h1>
+<img src="middleimage/Egypt.jpg" class="polar" alt="image"/>
+<div class="post-s">
+<p><a>With all the political unrest in Egypt over the past year it was just as surprising to us that Egypt has made our list! When we dove deeper into the safety of Egypt we discovered that there are not only safe places to visit; but now may be the best time to go.</a></p>
+</div>
+</div>
+</div>
+
+<div class="container1">
+<div class="post">
+<h1>2. Dubai</h1>
+<img src="middleimage/Dubai.jpg" class="polar" alt="image"/>
+<div class="post-s">
+<p><a>There’s no doubt that Dubai is one of the most popular tourist destinations worldwide. Even for people who have formerly been to the city, 2018 will come with full of surprises and new exciting attractions. </a></p>
+</div>
+</div>
+</div>
+
+<div class="container1">
+<div class="post">
+<h1>3. Abu Dhabi</h1>
+<img src="middleimage/Dhabi.jpg" class="polar" alt="image"/>
+<div class="post-s">
+<p><a>The end of 2017 brought a new spot to Abu Dhabi that all art lovers must see, the Louvre Abu Dhabi. One of the most famous museums in the world, the Louvre now has a beautiful new venue in the capital of the UAE.</a></p>
+</div>
+</div>
+</div>
+
+<div class="container1">
+<div class="post">
+<h1>4. Ras Al Khaimah</h1>
+<img src="middleimage/Khaimah.jpg" class="polar" alt="image"/>
+<div class="post-s">
+<p><a>Formerly one of the lesser-known Emirates, Ras Al Khaimah is marking its spot on the map in 2018. The city is becoming greatly known for active tourism, contrasting its neighbours Dubai and Abu Dhabi, which offer a more lush form of travel.</a></p>
+</div>
+</div>
+</div>
+
+<div class="container1">
+<div class="post">
+<h1>5. Kuwait City</h1>
+<img src="middleimage/City.jpg" class="polar" alt="image"/>
+<div class="post-s">
+<p><a>Middle East, Kuwait offers an extremely authentic experience of the Arabic world, populated by souqs and museums and pumping with culture. The coming year brings a great opportunity for travellers to head to Kuwait City and experience a true bite of Arab culture.</a></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="whole"></div>
+<h2 id="cost">Typical cost</h2>
+<p><strong>Accomendation</strong>-Hostels are not that common in Dubai. There are only a few here and most charge between 100-120 AED for a basic dorm. If you want a private room, expect to pay between 250-375 AED. Most will include free WiFi and a couple places also offer free breakfast. If you can avoid them, I would as they aren’t that nice in the city.</p>
+<p><strong>Transportation</strong>- The metro, while not extensive, is efficient and well-maintained and the public buses can take you anywhere. A single fare will cost between 4-8.50 AED (prices are based on how far you are going) and a day-pass is 20 AED. Taxis are on the cheap side, though if you need to call one, call an Uber instead since the addresses here can be a bit wonky to explain over the phone to a taxi company.</p>
+<p><strong>Food</strong>-You can find cheap meals in Dubai for around 30 AED, while fast food will cost a bit less (around 25 AED). The best meals are usually shared by the table and consist of hummus, pita, falafel, foul, fattoush, tahini salad, and grilled halloumi cheese. Operation Falafel is a great cheap restaurant chain with 7 locations around Dubai. If you want a meal at a mid-range restaurant, expect to pay closer to 100 AED</p>
+
+
+<div class="empty"></div>
+<h2 id="tips">Travelling Tips</h2>
+<ol>
+<li>Check travel warnings issued by other countries</li>
+<li>Hook up with a local</li>
+<li>Stay away from obvious trouble zones</li>
+</ol>
+
+<div class="empty"></div>
+<h2 id="info">Important Information</h2>
+<ol>
+<li>Each Country is Unique</li>
+<li>Dress Conservatively/Respectfully</li>
+<li>Most Women Aren’t Forced to Cover Up</li>
+<li>Don’t Refuse Coffee</li>
+<li>Bye Bye Bacon/Alcohol</li>
+</ol>
+
+<div class="empty"></div>
+<h2 id="guide">Recommended Guides To Use</h2>
+<table border="0">
+<tr><td><img src="middleimage/guide1.jpg" class="guide" alt="image"/></td><td><strong>Birds of the Middle East : Second Edition </strong></br>Birds of the Middle East is now the most field-ready and comprehensive guide to the fantastic birds of this region. This fully revised and updated second edition covers all species--including vagrants--found in the Arabian Peninsula (including Socotra), Jordan, Lebanon, Israel, Syria, Iraq, Iran, Turkey, and Cyprus. It features 176 superb color plates depicting more than 800 species, as well as 820 color distribution maps that show the breeding range for almost every species. </td><td><img src="middleimage/guide2.jpg" class="guide" alt="image"/></td><td><strong>Art of the Middle East : Modern and Contemporary Art of the Arab World and Iran</strong></br>Artistic expression in the Middle East is experiencing something of a renaissance. Domestic patronage is flourishing, and an impressive array of new museums and art fairs across the region is helping to stimulate international interest in an increasingly influential movement. Art of the Middle East is an accessible overview of modern and contemporary art of the Middle East and Arab world from 1945 to the present, with an emphasis on artists active today. </td></tr>
+
+<tr><td><img src="middleimage/guide3.jpg" class="guide" alt="image"/></td><td><strong>The Raptors of Europe and the Middle East : A Handbook to Field Identification</strong></br>This book presents the most complete and up to date guide to the recognition of the diurnal raptors of Europe and the Middle East yet published. It is written by an acknowledged expert, the author of many definitive identification articles and veteran of countless tours and expeditions.</td><td><img src="middleimage/guide4.jpg" class="guide" alt="image" /></td><td><strong>The Middle East For Dummies</strong></br>Demystifies the area's culture, politics, and religions</td></tr>
+</table>
+<div class="empty"></div>
+
+
+
+
+
+
+
+<footer>
+<div class="footer1">
+<ul><a class="h2" href="about.html">About us</a>
+<li><a href="about.html#purpose">Purpose</a></li>
+<li><a href="about.html#audience">Audience</a></li>
+<li><a href="about.html#objectives">Objectives</a></li></ul>
+</div>
+
+<div class="footer2">
+<ul><a class="h2" href="destination.html">Destination</a>
+<li><a href="africa.html">Africa</a></li>
+<li><a href="asia.html">Asia</a></li>
+<li><a href="australia.html">Australia</a></li>
+<li><a href="britishisle.html">British Isle</a></li>
+<li><a href="southamerica.html">South America</a></li>
+<li><a href="europe.html">Europe</a></li>
+<li><a href="">Middle East</a></li>
+<li><a href="">North America</a></li>
+</div>
+
+
+<div class="footer4">
+<ul><a class="h2"href="wonders.html">Famous Attractions</a>
+<li><a href="wonders.html#paris">Effile Tower</a></li>
+<li><a href="wonders.html#pisa">Leaning Tower of Pisa</a></li>
+<li><a href="wonders.html#montain">Machu Picchu</a></li>
+<li><a href="wonders.html#india">Taj Mahal</a></li>
+<li><a href="wonders.html#london">Big Ben</a></li>
+<li><a href="wonders.html#pyramid">The Great Pyramid of Giza</a></li>
+<li><a href="wonders.html#china">The Great Wall of China</a></li></ul>
+</div>
+
+<div class="footer3">
+<ul><a class="h2">Follow us on:</a>
+<li><a target="_blank" title="Follow@worldtravelguide" href="http://www.twitter.com"><img alt="follow me on twitter" src="https://c866088.ssl.cf3.rackcdn.com/assets/twitter40x40.png" border=0></a></a></li>
+<li><a target="_blank" title="follow me on facebook" href="http://www.facebook.com"><img alt="follow me on facebook" src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook40x40.png" border=0></a></a></li>
+<li><a target="_blank" title="follow me on instagram" href="http://www.instagram.com"><img alt="follow me on instagram" src="https://c866088.ssl.cf3.rackcdn.com/assets/instagram40x40.png" border=0></a></a></li>
+<li><a target="_blank" title="follow me on pinterest" href="http://www.pinterest.com"><img alt="follow me on pinterest" src="https://c866088.ssl.cf3.rackcdn.com/assets/pinterest30x30.png" border=0></a></a></li></ul>
+</div>
+<p>Copyright &copy; 2018.Balveen Kaur</p>
+</footer>
+
+</body>
+</html>

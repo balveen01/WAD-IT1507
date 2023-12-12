@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="feedbackstyle.css"/>
+<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Amethysta' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</style>
+<head>
+    <title>World Travel Guide</title>
+<link rel="icon" href="images/logo.png"/>
+</head>
+<body>
+<header>
+<img src="images/logo.png" alt="logo" class="biglogo"/>
+<p class="slogan">Travel to live, Live to Travel</p>
+<h1 class="intro">World Travel Guide</h1>
+<nav id="myTopnav" class="topnav">
+  <a href="website deign 3.html" >Home</a>
+  <a href="about.html">About</a>
+  <div class="dropdown">
+    <button class="button"><a href="destination.html">Destination</a>
+    </button>
+	  <div class="content">
+      <a href="africa.html">Africa</a>
+      <a href="asia.html">Asia</a>
+      <a href="australia.html">Australia</a>
+      <a href="britishisle.html">British Isle</a>
+      <a href="southamerica.html">South America</a>
+      <a href="europe.html">Europe</a>
+      <a href="middleeast.html">Middle East</a>
+      <a href="northamerica.html">North America</a>
+	  </div>
+  </div> 
+  <a href="wonders.html">Famous Attractions</a>
+  <a href="feedback.html">Feedback</a>
+  
+  <input type="text" placeholder="Search.."/>
+  
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</nav>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+<!--For the top thing-->
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+</header>
+<h1>Feedback Form</h1>
+<form method="post" action="mailto:balveenkaur01@gmail.com">
+<fieldset>
+<legend>Please fill in your personal details</legend>
+<p>
+<label for="tbName"><h4>First Name:</h4></label>
+<input type="text" id="tbName" name="thefirstName" placeholder="Enter your first name" autofocus required />
+</p>
+<p>
+<label for="tbName"><h4>Last Name:</h4></label>
+<input type="text" id="tbName" name="thelastName" placeholder="Enter your last name" autofocus required />
+</p>
+<p>
+<label for="tbEmail"><h4>Email:</h4></label>
+<input type="text" id="tbEmail" name="theEmail" placeholder="someone@example.com" required />
+</p>
+<p>
+<h4>Select your gender:</h4>
+<section id="first" class="section">
+<div class="container">
+<input type="radio" name="Name" id="radio-1" required />
+<label for="radio-1"><span class="radio">Female</span></label>
+</div>
+<br>
+<div class="container">
+<input type="radio" name="Name" id="radio-2" required>
+<label for="radio-2"><span class="radio">Male</span></label>
+</div>
+</section>
+
+</p>
+<p>
+<h4>Select your age:</h4>
+<input type="number" id="nAge" name="theAge" min="5" max="90" required />
+</p>
+
+</fieldset>
+<fieldset>
+<legend>About the website</legend>
+<p>
+<h4>How did you first know about this website:</h4>
+<select>
+<option value="searchengine">Search Engine</option>
+<option value="word">Word of mouth</option>
+<option value="email">Email or Newsletter</option>
+<option value="advertisement">Advertisement</option>
+<option value="other">Other</option>
+</select>
+</p>
+
+
+<p>
+<h4>Is the website easy to navigate?</h4>
+<section id="first" class="section">
+<div class="container">
+<input type="radio" name="navigation" id="radio-3">
+<label for="radio-3"><span class="radio">Yes</span></label>
+</div>
+<br>
+<div class="container">
+<input type="radio" name="navigation" id="radio-4">
+<label for="radio-4"><span class="radio">No</span></label>
+</div>
+</section>
+
+</p>
+
+
+<p>
+<h4>Did you find what you need?</h4>
+<section id="first" class="section">
+<div class="container">
+<input type="radio" name="find" id="radio-5">
+<label for="radio-5"><span class="radio">Yes, all of it </span></label>
+</div>
+<br>
+<div class="container">
+<input type="radio" name="find" id="radio-6">
+<label for="radio-6"><span class="radio">No, none of it</span></label>
+</div>
+<br>
+<div class="container">
+<input type="radio" name="find" id="radio-7">
+<label for="radio-7"><span class="radio">Yes, some of it</span></label>
+</div>
+<br>
+</section>
+</p>
+
+<p>
+<h4>How do you like us to contact you?</h4></br>
+<section id="second" class="section">
+<div class="container">
+<input type="checkbox" name="contact" id="chekcbox-1">
+<label for="chekcbox-1"><span class="checkbox">Email </span></label>
+</div>
+<br>
+<div class="container">
+<input type="checkbox" name="contact" id="chekcbox-2">
+<label for="chekcbox-2"><span class="checkbox">Facebook</span></label>
+</div>
+<br>
+<div class="container">
+<input type="checkbox" name="contact" id="chekcbox-3">
+<label for="chekcbox-3"><span class="checkbox">Phone call</span></label>
+</div>
+<br>
+<div class="container">
+<input type="checkbox" name="contact" id="chekcbox-4">
+<label for="chekcbox-4"><span class="checkbox">Social Media</span></label>
+</div>
+<br>
+</section>
+</p>
+
+
+
+<p>
+<h4>What is the likelihood that you will visit the website again?</h4></br>
+<section id="first" class="section">
+<div class="container">
+<input type="radio" name="liklihood" id="radio-8">
+<label for="radio-8"><span class="radio">Extremely likely </span></label>
+</div>
+<br>
+<div class="container">
+<input type="radio" name="liklihood" id="radio-9">
+<label for="radio-9"><span class="radio">Very likely</span></label>
+</div>
+<br>
+<div class="container">
+<input type="radio" name="liklihood" id="radio-10">
+<label for="radio-10"><span class="radio">Moderate likely</span></label>
+</div>
+<br>
+<div class="container">
+<input type="radio" name="liklihood" id="radio-11">
+<label for="radio-11"><span class="radio">Slightly likely</span></label>
+</div>
+
+<br>
+<div class="container">
+<input type="radio" name="liklihood" id="radio-13">
+<label for="radio-13"><span class="radio">Not at all likely</span></label>
+</div>
+<br>
+</section>
+</p>
+
+
+<p>
+<h4>Please tell us how east it is to find information on the site?</h4></br>
+<section id="first" class="section">
+<div class="container">
+<input type="radio" name="info" id="radio-14">
+<label for="radio-14"><span class="radio">Very Easy </span></label>
+</div>
+<br>
+<div class="container">
+<input type="radio" name="info" id="radio-15">
+<label for="radio-15"><span class="radio">Easy</span></label>
+</div>
+<br>
+<div class="container">
+<input type="radio" name="info" id="radio-16">
+<label for="radio-16"><span class="radio">Average</span></label>
+</div>
+<br>
+<div class="container">
+<input type="radio" name="info" id="radio-17">
+<label for="radio-17"><span class="radio">Difficult</span></label>
+</div>
+<br>
+<div class="container">
+<input type="radio" name="info" id="radio-18">
+<label for="radio-18"><span class="radio">Very Difficult </span></label>
+</div>
+<br>
+</section>
+</p>
+
+
+<label for="taSuggestion"><h4>Any suggestions on how we can improve our website?</h4></label><br/>
+<textarea rows="10" cols="48"></textarea>
+</fieldset>
+<p>
+<input type="reset" value="Reset"/>
+<input type="submit" value="Submit"/> 
+</p>
+
+</form>
+
+<div class="empty"></div>
+
+<footer>
+<div class="footer1">
+<ul><a class="h2" href="about.html">About us</a>
+<li><a href="about.html#purpose">Purpose</a></li>
+<li><a href="about.html#audience">Audience</a></li>
+<li><a href="about.html#objectives">Objectives</a></li></ul>
+</div>
+
+<div class="footer2">
+<ul><a class="h2" href="destination.html">Destination</a>
+<li><a href="africa.html">Africa</a></li>
+<li><a href="asia.html">Asia</a></li>
+<li><a href="australia.html">Australia</a></li>
+<li><a href="britishisle.html">British Isle</a></li>
+<li><a href="southamerica.html">South America</a></li>
+<li><a href="europe.html">Europe</a></li>
+<li><a href="middleeast.html">Middle East</a></li>
+<li><a href="northamerica.html">North America</a></li>
+
+</div>
+
+
+<div class="footer4">
+<ul><a class="h2"href="wonders.html">Famous Attractions</a>
+<li><a href="wonders.html#paris">Effile Tower</a></li>
+<li><a href="wonders.html#pisa">Leaning Tower of Pisa</a></li>
+<li><a href="wonders.html#montain">Machu Picchu</a></li>
+<li><a href="wonders.html#india">Taj Mahal</a></li>
+<li><a href="wonders.html#london">Big Ben</a></li>
+<li><a href="wonders.html#pyramid">The Great Pyramid of Giza</a></li>
+<li><a href="wonders.html#china">The Great Wall of China</a></li></ul>
+</div>
+<div class="footer3">
+<ul><a class="h2">Follow us on:</a>
+<li><a target="_blank" title="Follow@worldtravelguide" href="http://www.twitter.com"><img alt="follow me on twitter" src="https://c866088.ssl.cf3.rackcdn.com/assets/twitter40x40.png" border=0></a></a></li>
+<li><a target="_blank" title="follow me on facebook" href="http://www.facebook.com"><img alt="follow me on facebook" src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook40x40.png" border=0></a></a></li>
+<li><a target="_blank" title="follow me on instagram" href="http://www.instagram.com"><img alt="follow me on instagram" src="https://c866088.ssl.cf3.rackcdn.com/assets/instagram40x40.png" border=0></a></a></li>
+<li><a target="_blank" title="follow me on pinterest" href="http://www.pinterest.com"><img alt="follow me on pinterest" src="https://c866088.ssl.cf3.rackcdn.com/assets/pinterest30x30.png" border=0></a></a></li></ul>
+</div>
+<p>Copyright &copy; 2018.Balveen Kaur</p>
+</footer>
+
+</body>
+</html>
